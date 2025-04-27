@@ -1,0 +1,57 @@
+/*heading*/
+.fira-sans-bold {
+    font-family: "Fira Sans", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  .fira-sans-semibold {
+    font-family: "Fira Sans", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  .heading {
+    display:flex;
+    justify-content: space-between;
+    align-items: first baseline;
+
+  }
+  .bt{
+    color: #006A50;
+    background-color:white;
+    font-size: 16px;
+    border-radius: 30px;
+    border-color: #006A50;
+    border-width: 2px;
+    border-bottom: #006A50;
+    padding:8px 4px
+  }
+
+  /*nev 1 section*/
+
+  .banner-content{
+    display: flex;
+    justify-content: space-between;
+    background-color: #d4f0e1;
+    align-items: center;
+    height: 500px;
+  }
+  .header-bt{
+    color: white;
+    background-color: #006A50;
+    border-radius:8px;
+    border:none;
+    padding:15px 17px;
+    cursor:pointer;
+    font-size: 16px;
+  }
+  .header-text{
+    font-size: 40px;
+      margin: 0 0 20px;
+      color: #000;
+      margin-bottom: 24px;
+  }
+  .header-text1{
+    font-size:medium;
+    color:gray;
+    margin-bottom: 16px;
+  }
