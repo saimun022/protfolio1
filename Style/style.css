@@ -62,16 +62,19 @@
     margin-top: 15px;
     max-width: 1200px;
     background-color:white;
+    margin-bottom: 80px;
 
   }
   .card{
     gap:25px;
     flex-wrap: wrap;
     background-color: white;
-    border-radius: 20px;
-    padding:30px;
+    border-radius: 10px;
+    padding:20px;
     box-shadow: 10px;
-    min-height: 250px;
+    min-height: 200px;
+    box-shadow: 0px 2px 2px;
+    text-align: left;
 
   }
   .card img{
@@ -87,4 +90,32 @@
 
     font-size: 15px;
     color:#0E0E0E:
+  }
+  /*The vision of Future*/
+  .Vison-card{
+    display: flex;
+    justify-content: space-around;
+  }
+  .Digital-Transformation{
+    flex-wrap: wrap;
+    border-radius: 10px;
+    background-color:#5490F5 ;
+    padding:20px;
+    box-shadow: 10px;
+    text-align: left;
+  }
+  .Digital-Transformation img{
+    width: 50px;
+    margin-bottom: 10px;
+  }
+  .
+.Digital-Transformation h3{
+  font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.Digital-Transformation p{
+  font-size: 15px;
+  color:#0E0E0E;
+  margin-bottom: 15px;
   }
